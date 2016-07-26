@@ -1,0 +1,14 @@
+# комментарий Ч эта строка игнорируетс€
+# не обрабатывать файлы, им€ которых заканчиваетс€ на .a
+*.filters
+*.vcxproj
+*.bin
+targetver.h
+stdafx.cpp
+stdafx.h
+# игнорировать все файлы в каталоге Debug
+Debug/
+# игнорировать doc/notes.txt, но не doc/server/arch.txt
+doc/*.txt
+# игнорировать все .txt файлы в каталоге doc/
+doc/**/*.txt
